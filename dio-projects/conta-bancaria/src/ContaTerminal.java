@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class contaTerminal {
+public class ContaTerminal {
   public static void main() {
     Scanner sc = new Scanner(System.in);
     System.out.println("Por favor, digite o seu nome");
