@@ -1,13 +1,19 @@
 package br.com.dio.dominio;
 
-public class AparelhoTelefonico {
-    public static void ligar(){
-        System.out.println("Ligando para ...");
+public class AparelhoTelefonico implements IAparelhoTelefonico{
+
+    @Override
+    public  void atender() {
+        System.out.println("Chamando aparelho");
     }
-    public static void atender(){
-        System.out.println("... Ligando para você");
+
+    @Override
+    public  void ligar() {
+        System.out.println("Iniciando chamada");
     }
-    public static void iniciarCorreioVoz(){
-        System.out.println("Iniciando chamado de correio de voz");
+
+    @Override
+    public void iniciarCorreioDeVoz() {
+        System.out.println("Chamando correio de voz");
     }
 }

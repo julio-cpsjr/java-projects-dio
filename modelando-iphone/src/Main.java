@@ -29,10 +29,11 @@ public class Main {
         System.out.println("2 - Pausar");
         System.out.println("3 - Selecionar");
         double musica = sc.nextDouble();
-        if(musica == 1){ ReprodutorMusical.tocar();}
+        ReprodutorMusical reprodutor = new ReprodutorMusical();
+        if(musica == 1){ reprodutor.tocar();}
         else if(musica == 2){
-            ReprodutorMusical.pausar();}
-        else ReprodutorMusical.selecionarMusica();
+            reprodutor.pausar();}
+        else reprodutor.selecionarMusica();
     }
     static void telefone(){
         Scanner sc = new Scanner(System.in);
@@ -41,10 +42,11 @@ public class Main {
         System.out.println("2 - Ligar");
         System.out.println("3 - Correio de Voz");
         double chamada = sc.nextDouble();
-        if(chamada == 1){ AparelhoTelefonico.atender();}
+        AparelhoTelefonico celular = new AparelhoTelefonico();
+        if(chamada == 1){ celular.atender();}
         else if(chamada == 2){
-            AparelhoTelefonico.ligar();}
-        else AparelhoTelefonico.iniciarCorreioVoz();
+            celular.ligar();}
+        else celular.iniciarCorreioDeVoz();
     }
     static void internet(){
         Scanner sc = new Scanner(System.in);
@@ -53,10 +55,11 @@ public class Main {
         System.out.println("2 - Abrir nova aba");
         System.out.println("3 - Atualizar Página");
         double pagina = sc.nextDouble();
-        if(pagina == 1){ NavegarNaInternet.exibirPagina();}
+        NavegarNaInternet navegador = new NavegarNaInternet();
+        if(pagina == 1){ navegador.exibirPagina();}
         else if(pagina == 2){
-            NavegarNaInternet.adicionarNovaAba();}
-        else NavegarNaInternet.atualizarPagina();
+            navegador.adicionarNovaAba();}
+        else navegador.atualizarPagina();
     }
 
 }

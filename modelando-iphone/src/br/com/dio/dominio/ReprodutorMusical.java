@@ -1,14 +1,14 @@
 package br.com.dio.dominio;
 
-public class ReprodutorMusical {
-    public static void tocar() {
+public class ReprodutorMusical implements IReprodutorMusical {
+    public void tocar() {
         System.out.println("Tocando música");
     }
-    public static void pausar(){
+    public void pausar(){
         System.out.println("Pausando música");
         System.out.println("Música pausada");
     }
-    public static void selecionarMusica(){
+    public void selecionarMusica(){
         System.out.println("Selecionando música");
     }
 }

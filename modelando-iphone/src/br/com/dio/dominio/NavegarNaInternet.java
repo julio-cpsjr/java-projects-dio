@@ -1,13 +1,19 @@
 package br.com.dio.dominio;
 
-public class NavegarNaInternet {
-    public static void exibirPagina(){
+public class NavegarNaInternet implements INavegarNaInternet {
+
+    @Override
+    public void exibirPagina() {
         System.out.println("Abrindo navegador");
     }
-    public static void adicionarNovaAba(){
-        System.out.println("Abrindo nova aba");
+
+    @Override
+    public void adicionarNovaAba() {
+        System.out.println("Adicionando uma nova aba");
     }
-    public static void atualizarPagina(){
+
+    @Override
+    public void atualizarPagina() {
         System.out.println("Atualizando a página");
     }
 }
