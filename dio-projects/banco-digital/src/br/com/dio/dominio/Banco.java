@@ -1,3 +1,5 @@
+package br.com.dio.dominio;
+
 import java.util.ArrayList;
 import java.util.List;
 

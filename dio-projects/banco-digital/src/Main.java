@@ -1,5 +1,6 @@
+import br.com.dio.dominio.*;
+
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -25,7 +26,7 @@ public class Main {
     static String inserirBanco(){
         Scanner sc = new Scanner(System.in);
         System.out.println("=== Bem vindo ao Hub de Bancos ===");
-        System.out.println("Por favor, insira o nome do Banco.");
+        System.out.println("Por favor, insira o nome do br.com.dio.dominio.Banco.");
         return sc.nextLine();
     }
     static String inserirCliente(String banco){

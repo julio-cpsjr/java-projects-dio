@@ -1,3 +1,5 @@
+package br.com.dio.dominio;
+
 import java.util.ArrayList;
 
 public abstract class Conta implements IConta {
@@ -18,7 +20,7 @@ public abstract class Conta implements IConta {
     public ArrayList<String> setContas(ArrayList<String> contaCP) {
         contaCP.add("Titular: " + this.cliente.getNome());
         contaCP.add("Agência: " + this.agencia);
-        contaCP.add("Conta: " + this.numero);
+        contaCP.add("br.com.dio.dominio.Conta: " + this.numero);
         contaCP.add("Saldo: " + this.saldo);
         return contaCP;
     }
@@ -27,7 +29,7 @@ public abstract class Conta implements IConta {
     protected void imprimirInfosComuns(){
         System.out.printf("Titular: %s \n", this.cliente.getNome());
         System.out.printf("Agência: %d \n", this.agencia);
-        System.out.printf("Conta: %d \n", this.numero);
+        System.out.printf("br.com.dio.dominio.Conta: %d \n", this.numero);
         System.out.printf("Saldo: %.2f \n", this.saldo);
     }
 

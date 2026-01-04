@@ -1,3 +1,5 @@
+package br.com.dio.dominio;
+
 public class ContaCorrente extends Conta{
 
     public ContaCorrente(Cliente cliente) {
@@ -6,7 +8,7 @@ public class ContaCorrente extends Conta{
 
     @Override
     public String imprimirExtrato() {
-        System.out.println("=== Extrato Conta Corrente ===");
+        System.out.println("=== Extrato br.com.dio.dominio.Conta Corrente ===");
         super.imprimirInfosComuns();
         return null;
     }

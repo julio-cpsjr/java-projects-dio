@@ -1,3 +1,5 @@
+package br.com.dio.dominio;
+
 public class Cliente {
     private String nome;
 
