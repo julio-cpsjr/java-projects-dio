@@ -1,3 +1,7 @@
+import br.com.dio.dominio.AparelhoTelefonico;
+import br.com.dio.dominio.NavegarNaInternet;
+import br.com.dio.dominio.ReprodutorMusical;
+
 import java.util.Scanner;
 
 public class Main {
