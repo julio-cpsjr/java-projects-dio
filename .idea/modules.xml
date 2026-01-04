@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java_Projects.iml" filepath="$PROJECT_DIR$/Java_Projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dio-projects/banco-digital/banco-digital.iml" filepath="$PROJECT_DIR$/dio-projects/banco-digital/banco-digital.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dio-projects/conta-bancaria/conta-bancaria.iml" filepath="$PROJECT_DIR$/dio-projects/conta-bancaria/conta-bancaria.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dio-projects/desafio-dio-poo/desafio-dio-poo.iml" filepath="$PROJECT_DIR$/dio-projects/desafio-dio-poo/desafio-dio-poo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dio-projects/modelando-iphone/modelando-iphone.iml" filepath="$PROJECT_DIR$/dio-projects/modelando-iphone/modelando-iphone.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dio-projects/processo-seletivo/processo-seletivo.iml" filepath="$PROJECT_DIR$/dio-projects/processo-seletivo/processo-seletivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banco-digital/banco-digital.iml" filepath="$PROJECT_DIR$/banco-digital/banco-digital.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" filepath="$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafio-dio-poo/desafio-dio-poo.iml" filepath="$PROJECT_DIR$/desafio-dio-poo/desafio-dio-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modelando-iphone/modelando-iphone.iml" filepath="$PROJECT_DIR$/modelando-iphone/modelando-iphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/processo-seletivo/processo-seletivo.iml" filepath="$PROJECT_DIR$/processo-seletivo/processo-seletivo.iml" />
     </modules>
   </component>
 </project>
