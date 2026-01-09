@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/banco-digital/banco-digital.iml" filepath="$PROJECT_DIR$/banco-digital/banco-digital.iml" />
       <module fileurl="file://$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" filepath="$PROJECT_DIR$/conta-bancaria/conta-bancaria.iml" />
       <module fileurl="file://$PROJECT_DIR$/desafio-dio-poo/desafio-dio-poo.iml" filepath="$PROJECT_DIR$/desafio-dio-poo/desafio-dio-poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-dio-java/lab-dio-java.iml" filepath="$PROJECT_DIR$/lab-dio-java/lab-dio-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/modelando-iphone/modelando-iphone.iml" filepath="$PROJECT_DIR$/modelando-iphone/modelando-iphone.iml" />
       <module fileurl="file://$PROJECT_DIR$/processo-seletivo/processo-seletivo.iml" filepath="$PROJECT_DIR$/processo-seletivo/processo-seletivo.iml" />
     </modules>
